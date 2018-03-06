@@ -61,5 +61,8 @@
     <Folder Include="Prototype\" />
     <Folder Include="Singleton\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Abstract Factory\Readme.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
