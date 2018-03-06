@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract Factory\Abstract\AbstractVehicleFactory.cs" />
     <Compile Include="Abstract Factory\Concrete\CarBody.cs" />
     <Compile Include="Abstract Factory\Concrete\CarChassis.cs" />
     <Compile Include="Abstract Factory\Concrete\CarGlassware.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Abstract Factory\Factory\" />
     <Folder Include="Builder\" />
     <Folder Include="Factory Method\" />
     <Folder Include="Prototype\" />
