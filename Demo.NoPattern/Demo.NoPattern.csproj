@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Abstract\AbstractCar.cs" />
     <Compile Include="Abstract\AbstractEngine.cs" />
+    <Compile Include="Abstract\AbstractVan.cs" />
     <Compile Include="Abstract\AbstractVehicle.cs" />
     <Compile Include="Concrete\StandardEngine.cs" />
     <Compile Include="Concrete\TurboEngine.cs" />
