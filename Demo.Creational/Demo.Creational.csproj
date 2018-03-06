@@ -57,8 +57,11 @@
     <Compile Include="Builder\Abstract\AbstractVan.cs" />
     <Compile Include="Builder\Abstract\AbstractVehicle.cs" />
     <Compile Include="Builder\Abstract\VehicleBuilder.cs" />
+    <Compile Include="Builder\Abstract\VehicleDirector.cs" />
     <Compile Include="Builder\Concrete\CarBuilder.cs" />
+    <Compile Include="Builder\Concrete\CarDirector.cs" />
     <Compile Include="Builder\Concrete\VanBuilder.cs" />
+    <Compile Include="Builder\Concrete\VanDirector.cs" />
     <Compile Include="Builder\Enum\VehicleColour.cs" />
     <Compile Include="Builder\Interface\IEngine.cs" />
     <Compile Include="Builder\Interface\IVehicle.cs" />
