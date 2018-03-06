@@ -53,10 +53,14 @@
     <Compile Include="Abstract Factory\Interface\IBody.cs" />
     <Compile Include="Abstract Factory\Interface\IChassis.cs" />
     <Compile Include="Abstract Factory\Interface\IGlassware.cs" />
+    <Compile Include="Builder\Abstract\VehicleBuilder.cs" />
+    <Compile Include="Builder\Enum\VehicleColour.cs" />
+    <Compile Include="Builder\Interface\IEngine.cs" />
+    <Compile Include="Builder\Interface\IVehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Builder\" />
+    <Folder Include="Builder\Concrete\" />
     <Folder Include="Factory Method\" />
     <Folder Include="Prototype\" />
     <Folder Include="Singleton\" />
