@@ -4,9 +4,6 @@ namespace Demo.Creational.Abstract_Factory.Concrete
 {
     public class CarChassis: IChassis
     {
-        public virtual string ChassisParts
-        {
-            get { return "Chassis parts for a car"; }
-        }
+        public virtual string ChassisParts => "Chassis parts for a car";
     }
 }
