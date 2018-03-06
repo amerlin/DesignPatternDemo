@@ -1,5 +1,4 @@
-﻿using System;
-using Demo.Creational.Abstract_Factory.Abstract;
+﻿using Demo.Creational.Abstract_Factory.Abstract;
 using Demo.Creational.Abstract_Factory.Concrete;
 using Demo.Creational.Abstract_Factory.Interface;
 
