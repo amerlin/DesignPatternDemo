@@ -44,6 +44,11 @@
     <Compile Include="Abstract\AbstractEngine.cs" />
     <Compile Include="Abstract\AbstractVan.cs" />
     <Compile Include="Abstract\AbstractVehicle.cs" />
+    <Compile Include="Concrete\BoxVan.cs" />
+    <Compile Include="Concrete\Coupe.cs" />
+    <Compile Include="Concrete\Pickup.cs" />
+    <Compile Include="Concrete\Saloon.cs" />
+    <Compile Include="Concrete\Sport.cs" />
     <Compile Include="Concrete\StandardEngine.cs" />
     <Compile Include="Concrete\TurboEngine.cs" />
     <Compile Include="Enum\VehicleColour.cs" />
