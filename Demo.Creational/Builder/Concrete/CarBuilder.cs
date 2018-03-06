@@ -6,11 +6,11 @@ namespace Demo.Creational.Builder.Concrete
 {
     public class CarBuilder: VehicleBuilder
     {
-        private AbstractCar _carInProgess;
+        private AbstractCar _carInProgress;
 
         public CarBuilder(AbstractCar car)
         {
-            _carInProgess = car;
+            _carInProgress = car;
         }
 
         public override void BuildBody()
@@ -44,6 +44,6 @@ namespace Demo.Creational.Builder.Concrete
         }
 
 
-        public override IVehicle Vehicle => _carInProgess;
+        public override IVehicle Vehicle => _carInProgress;
     }
 }
