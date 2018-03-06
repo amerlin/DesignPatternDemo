@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\AbstractEngine.cs" />
+    <Compile Include="Abstract\AbstractVehicle.cs" />
     <Compile Include="Concrete\StandardEngine.cs" />
     <Compile Include="Concrete\TurboEngine.cs" />
     <Compile Include="Enum\VehicleColour.cs" />
