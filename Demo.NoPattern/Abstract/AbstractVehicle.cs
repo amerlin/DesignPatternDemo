@@ -1,48 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.NoPattern.Enum;
+﻿using Demo.NoPattern.Enum;
 using Demo.NoPattern.Interface;
 
 namespace Demo.NoPattern.Abstract
 {
     public abstract class AbstractVehicle: IVehicle
     {
-        private IEngine engine;
-        private VehicleColour colour;
+        private readonly IEngine _engine;
+        private VehicleColour _colour;
 
-        public AbstractVehicle(IEngine engine): this(engine, VehicleColour.Unpainted)
+        protected AbstractVehicle(IEngine engine): this(engine, VehicleColour.Unpainted)
         {
-            this.engine = engine;
+            this._engine = engine;
         }
 
-        public AbstractVehicle(IEngine engine, VehicleColour colour)
+        protected AbstractVehicle(IEngine engine, VehicleColour colour)
         {
-            this.engine = engine;
-            this.colour = colour;
+            _engine = engine;
+            _colour = colour;
         }
 
-        public virtual IEngine Engine
-        {
-            get { return engine; }
-        }
+        public virtual IEngine Engine => _engine;
 
-        public virtual VehicleColour Colour
-        {
-            get { return colour; }
-        }
+        public virtual VehicleColour Colour => _colour;
 
 
         public void Paint(VehicleColour colour)
         {
-            this.colour = colour;
+            this._colour = colour;
         }
 
         public override string ToString()
         {
-            return $"{this.GetType().Name} ({engine}/{colour})";
+            return $"{this.GetType().Name} ({_engine}/{_colour})";
         }
 
 
