@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.NoPattern
+namespace Demo.NoPattern.Interface
 {
-    public class Class1
+    public interface IEngine
     {
+        int Size { get; }
+        bool Turbo { get; }
     }
 }
