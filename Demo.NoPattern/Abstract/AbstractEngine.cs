@@ -4,28 +4,21 @@ namespace Demo.NoPattern.Abstract
 {
     public abstract class AbstractEngine: IEngine
     {
-        private int size;
-        private bool turbo;
-        
-        public AbstractEngine(int size, bool turbo)
+        private readonly int _size;
+
+        protected AbstractEngine(int size, bool turbo)
         {
-            this.size = size;
-            this.turbo = turbo;
+            _size = size;
+            Turbo = turbo;
         }
 
-        public virtual int Size
-        {
-            get { return size; }
-        }
+        public virtual int Size => _size;
 
-        public virtual bool Turbo
-        {
-            get { return turbo; }
-        }
+        public virtual bool Turbo { get; }
 
         public override string ToString()
         {
-            return $"{this.GetType().Name} ({size})";
+            return $"{GetType().Name} ({_size})";
         }
     }
 }
