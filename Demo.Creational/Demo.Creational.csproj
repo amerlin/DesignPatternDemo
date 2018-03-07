@@ -69,10 +69,27 @@
     <Compile Include="Builder\Interface\IEngine.cs" />
     <Compile Include="Builder\Interface\IVehicle.cs" />
     <Compile Include="Builder\Sample.cs" />
+    <Compile Include="Factory Method\Abstract\AbstractCar.cs" />
+    <Compile Include="Factory Method\Abstract\AbstractEngine.cs" />
+    <Compile Include="Factory Method\Abstract\AbstractVan.cs" />
+    <Compile Include="Factory Method\Abstract\AbstractVehicle.cs" />
+    <Compile Include="Factory Method\Abstract\VehicleFactory.cs" />
+    <Compile Include="Factory Method\Concrete\BoxVan.cs" />
+    <Compile Include="Factory Method\Concrete\CarFactory.cs" />
+    <Compile Include="Factory Method\Concrete\Coupe.cs" />
+    <Compile Include="Factory Method\Concrete\Pickup.cs" />
+    <Compile Include="Factory Method\Concrete\Saloon.cs" />
+    <Compile Include="Factory Method\Concrete\Sport.cs" />
+    <Compile Include="Factory Method\Concrete\StandardEngine.cs" />
+    <Compile Include="Factory Method\Concrete\TurboEngine.cs" />
+    <Compile Include="Factory Method\Concrete\VanFactory.cs" />
+    <Compile Include="Factory Method\Enum\VehicleColour.cs" />
+    <Compile Include="Factory Method\Interface\IEngine.cs" />
+    <Compile Include="Factory Method\Interface\IVehicle.cs" />
+    <Compile Include="Factory Method\Sample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Factory Method\" />
     <Folder Include="Prototype\" />
     <Folder Include="Singleton\" />
   </ItemGroup>
