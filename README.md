@@ -8,3 +8,5 @@ Provides an interface for creating families of related or dependent objects with
 
 ### Builder
 Separate the costruction of a complex object from its representation so tahs the same costruction process can create different representations.
+
+### Factory Method
