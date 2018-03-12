@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Demo.Creational</RootNamespace>
     <AssemblyName>Demo.Creational</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -88,9 +89,18 @@
     <Compile Include="Factory Method\Interface\IVehicle.cs" />
     <Compile Include="Factory Method\Sample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\Abstract\AbstractCar.cs" />
+    <Compile Include="Prototype\Abstract\AbstractEngine.cs" />
+    <Compile Include="Prototype\Abstract\AbstractVehicle.cs" />
+    <Compile Include="Prototype\Client.cs" />
+    <Compile Include="Prototype\Concrete\Saloon.cs" />
+    <Compile Include="Prototype\Concrete\StandardEngine.cs" />
+    <Compile Include="Prototype\Enum\VehicleColour.cs" />
+    <Compile Include="Prototype\Interface\IEngine.cs" />
+    <Compile Include="Prototype\Interface\IVehicle.cs" />
+    <Compile Include="Prototype\VechicleManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Prototype\" />
     <Folder Include="Singleton\" />
   </ItemGroup>
   <ItemGroup>
