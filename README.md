@@ -21,6 +21,8 @@ Define an interface for creating an object, but let subclasses decide which clas
 
 ### Prototype
 Specify the kinds of objects to create using a prototypical instance, and create new objects by copying the prototype.
+![Factory Method](http://amerlin.keantex.com/wp-content/uploads/2018/02/prototype.gif)
+
 
 ### Singleton
 Ensure a class allows only one object to be created, providing a single point of access to it.
