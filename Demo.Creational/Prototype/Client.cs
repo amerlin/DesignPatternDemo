@@ -13,9 +13,9 @@ namespace Demo.Creational.Prototype
         public Client()
         {
             var manager = new VechicleManager();
-            IVehicle saloon = manager.CreateSaloon();
-            IVehicle coupe = manager.CreateCoupe();
-            IVehicle sport = manager.CreateSport();
+            var saloon = manager.CreateSaloon();
+            var coupe = manager.CreateCoupe();
+            var sport = manager.CreateSport();
         }
     }
 }
