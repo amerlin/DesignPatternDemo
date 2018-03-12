@@ -18,3 +18,7 @@ Separate the costruction of a complex object from its representation so tahs the
 Define an interface for creating an object, but let subclasses decide which class to instatiate.
 
 ![Factory Method](http://amerlin.keantex.com/wp-content/uploads/2018/02/factory.gif)
+
+### Prototype
+
+### Singleton
