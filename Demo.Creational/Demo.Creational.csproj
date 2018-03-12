@@ -99,10 +99,9 @@
     <Compile Include="Prototype\Interface\IEngine.cs" />
     <Compile Include="Prototype\Interface\IVehicle.cs" />
     <Compile Include="Prototype\VechicleManager.cs" />
+    <Compile Include="Singleton\SerialNumberGenerator.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Singleton\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Abstract Factory\Readme.txt" />
   </ItemGroup>
