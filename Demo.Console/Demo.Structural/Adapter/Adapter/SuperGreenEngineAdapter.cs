@@ -19,6 +19,11 @@ namespace Demo.Structural.Adapter.Adapter
     //CONVERT TO ABSTRACTENGINE
     public class SuperGreenEngine
     {
+        public SuperGreenEngine(int size)
+        {
+            this.EngineSize = size;
+        }
+
         public int EngineSize { get; set; }
     }
 }
