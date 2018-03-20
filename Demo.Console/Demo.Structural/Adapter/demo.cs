@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Demo.Structural.Adapter.Adapter;
 using Demo.Structural.Adapter.Concrete;
 using Demo.Structural.Adapter.Interface;
@@ -19,7 +20,7 @@ namespace Demo.Structural.Adapter
                 new SuperGreenEngineAdapter(new SuperGreenEngine(1000))                 //ADAPTER
             };
 
-
+            Console.WriteLine(engines[0].Size);
 
         }
 
