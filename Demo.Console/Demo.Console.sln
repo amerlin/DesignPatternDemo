@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Creational", "..\Demo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.NoPattern", "..\Demo.NoPattern\Demo.NoPattern.csproj", "{03D66491-4F6D-45C0-BFF6-BCCFA0646A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Structural", "Demo.Structural\Demo.Structural.csproj", "{2FF4CA48-F88A-438D-B7D7-213E9DC1C6F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Structural", "..\Demo.Structural\Demo.Structural.csproj", "{2FF4CA48-F88A-438D-B7D7-213E9DC1C6F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
