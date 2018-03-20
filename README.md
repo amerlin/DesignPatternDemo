@@ -33,5 +33,5 @@ Ensure a class allows only one object to be created, providing a single point of
 
 ## Structural
 
-###Adapter
+### Adapter
 Convert the interface of a class into the interface clients expect, letting classes work together that couldn't otherwise because of incompatible types.
