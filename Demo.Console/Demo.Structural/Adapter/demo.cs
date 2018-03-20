@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Demo.Structural.Adapter.Adapter;
 using Demo.Structural.Adapter.Concrete;
 using Demo.Structural.Adapter.Interface;
@@ -11,6 +7,7 @@ namespace Demo.Structural.Adapter
 {
     public class Demo
     {
+        //Demo Adapter
         public Demo()
         {
             //normal 
