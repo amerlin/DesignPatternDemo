@@ -29,3 +29,9 @@ Specify the kinds of objects to create using a prototypical instance, and create
 Ensure a class allows only one object to be created, providing a single point of access to it.
 
 ![Factory Method](http://amerlin.keantex.com/wp-content/uploads/2018/02/singleton.gif)
+
+
+## Structural
+
+###Adapter
+Convert the interface of a class into the interface clients expect, letting classes work together that couldn't otherwise because of incompatible types.
